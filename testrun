@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in $(cat botlist.txt); do 
+java -jar ./build/libs/comp20050_a5_bot_arena-1.0-SNAPSHOT-all.jar $i $i
+done
